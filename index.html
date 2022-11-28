@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/23a0fa0a1a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <title>Udemy</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <img
+          src="./assets/logo-udemy.svg"
+          alt="Udemy logo"
+          class="udemy__logo"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Categories</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search for anything"
+              aria-label="Search"
+            />
+          </form>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Udemy Business</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Teach on Udemy</a
+              >
+            </li>
+          </ul>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <button class="btn btn-outline-success" type="submit">Login</button>
+          <button class="btn btn-outline-success" type="submit">Sign up</button>
+          <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-globe"></i></button>
+        </div>
+      </div>
+    </nav>
+    <!-- section 2 -->
+    <section class="section__2">
+      <div class="sales">
+        <h2>Cyber Sales ends tonight</h2>
+        <p>
+          Last chance to bring home the latest skills with courses as low as
+          <i class="fa-solid fa-naira-sign"></i> 2,500.
+        </p>
+      </div>
+    </section>
+    <!-- section 3 -->
+    <section class="section__3">
+      <div class="courses">
+        <h2>A broad selection of courses</h2>
+        <p>
+          Choose from 213,000 online video courses with new additions published
+          every month
+        </p>
+      </div>
+      <div class="course__list">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="phython-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#phython-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="phython-tab-pane"
+              aria-selected="true"
+            >
+              Phython
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="excel-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#excel-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="excel-tab-pane"
+              aria-selected="false"
+            >
+              Excel
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="web-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#web-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="web-tab-pane"
+              aria-selected="false"
+            >
+              Web Development
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="javascript-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#javascript-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="Javascript-tab-pane"
+              aria-selected="false"
+            >
+              JavaScript
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="datascience-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#datascience-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="datascience-tab-pane"
+              aria-selected="false"
+            >
+              Data Science
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="aws-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#aws-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="aws-tab-pane"
+              aria-selected="false"
+            >
+              AWS Certification
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="drawing-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#drawing-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="drawing-tab-pane"
+              aria-selected="false"
+            >
+              Drawing
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="phython-tab-pane"
+            role="tabpanel"
+            aria-labelledby="phython-tab"
+            tabindex="0"
+          >
+            <div class="nav__input">
+              <h5>Expand your career opportunities with Python</h5>
+              <p class="description">
+                Take one of Udemy’s range of Python courses and learn how to
+                code using this incredibly useful language. Its simple syntax
+                and readability makes Python perfect for Flask, Django, data
+                science, and machine learning. You’ll learn how to build
+                everything from games to sites to apps. Choose from a range of
+                courses that will appeal to...
+              </p>
+              <button class="explore__button">Explore Python</button>
+            </div>
+            <div class="carousel">
+              <div
+                id="carouselExampleControls"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item-active">
+                    <div class="carousel__block">
+                      <img src="./assets/394676_ce3d_5.jpg" class="d-block w-15" alt="..." />
+                      <h6>
+                        Learn Python: The Complete Python Programming Course
+                      </h6>
+                      <p>Avinash Jain, The Codex</p>
+                      <p class="price">
+                        4.3 <i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-regular fa-star-half-stroke"></i>(3,968)
+                      </p>
+                      <h6><i class="fa-solid fa-naira-sign"></i>3,200 <del><i class="fa-solid fa-naira-sign"></i>14,900</del></h6>
+                    </div>
+                    <div class="carousel__block">
+                      <img src="./assets/396876_cc92_7.jpg" class="d-block w-15" alt="..." />
+                      <h6>
+                        Learning Python for Data Analysis and Visualization
+                      </h6>
+                      <p>Jose Portilla</p>
+                      <p class="price">
+                        4.3 <i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-regular fa-star-half-stroke"></i>(18,472)
+                      </p>
+                      <h6><i class="fa-solid fa-naira-sign"></i>3,900 <del><i class="fa-solid fa-naira-sign"></i>29,900</del></h6>
+                      <button class="bestseller">Bestseller</button>
+                    </div>
+                    <div class="carousel__block">
+                      <img src="./assets/405878_e5a0_3.jpg" class="d-block w-15" alt="..." />
+                      <h6>
+                        Python for Beginners - Learn Programming from scratch
+                      </h6>
+                      <p>Edwin Diaz, Coding Faculty Solutions</p>
+                      <p class="price">
+                        4.3 <i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-regular fa-star-half-stroke"></i>(2,239)
+                      </p>
+                      <h6><i class="fa-solid fa-naira-sign"></i>3,200 <del><i class="fa-solid fa-naira-sign"></i>14,900</del></h6>
+                    </div>
+                    <div  class="carousel__block">
+                      <img src="./assets/482754_7146_6.jpg" class="d-block w-15" alt="..." />
+                      <h6>
+                        Python From Scratch & Selenium WebDriver QA Automation 2022
+                      </h6>
+                      <p>Admas Kinfu</p>
+                      <p class="price">
+                        4.5 <i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-regular fa-star-half-stroke"></i>(2,197)
+                      </p>
+                      <h6><i class="fa-solid fa-naira-sign"></i>3,200 <del><i class="fa-solid fa-naira-sign"></i>14,900</del></h6>
+                      <button class="bestseller">Bestseller</button>
+                    </div>
+                    <div class="carousel__block">
+                      <img src="./assets/519554_da68_6.jpg" class="d-block w-15" alt="..." />
+                      <h6>
+                        Teach Your Kids to Code: Learn to Program Python at Any Age!
+                      </h6>
+                      <p>Bryson Payne</p>
+                      <p class="price">
+                        4.5 <i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-solid fa-star"></i
+                        ><i class="fa-regular fa-star-half-stroke"></i>(9,021)
+                      </p>
+                      <h6><i class="fa-solid fa-naira-sign"></i>3,200 <del><i class="fa-solid fa-naira-sign"></i>6,500</del></h6>
+                      <button class="bestseller">Bestseller</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="..." />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="excel-tab-pane"
+            role="tabpanel"
+            aria-labelledby="excel-tab"
+            tabindex="0"
+          >
+            ...
+          </div>
+          <div
+            class="tab-pane fade"
+            id="web-tab-pane"
+            role="tabpanel"
+            aria-labelledby="web-tab"
+            tabindex="0"
+          >
+            ...
+          </div>
+          <div
+            class="tab-pane fade"
+            id="javascript-tab-pane"
+            role="tabpanel"
+            aria-labelledby="javascript-tab"
+            tabindex="0"
+          >
+            ...
+          </div>
+          <div
+            class="tab-pane fade"
+            id="datascience-tab-pane"
+            role="tabpanel"
+            aria-labelledby="datascience-tab"
+            tabindex="0"
+          >
+            ...
+          </div>
+          <div
+            class="tab-pane fade"
+            id="aws-tab-pane"
+            role="tabpanel"
+            aria-labelledby="aws-tab"
+            tabindex="0"
+          >
+            ...
+          </div>
+          <div
+            class="tab-pane fade"
+            id="drawing-tab-pane"
+            role="tabpanel"
+            aria-labelledby="drawing-tab"
+            tabindex="0"
+          >
+            ...
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 4 -->
+    <section class="section__4">
+      <div class="option__bar">
+        <i class="fa-solid fa-play"></i>
+        <h6></i> Learn in-demand skills with over 213,000 video courses</h6>
+      </div>
+      <div class="option__bar">
+        <i class="fa-solid fa-star"></i>
+        <h6> Choose courses taught by real-world experts</h6>
+      </div>
+      <div class="option__bar">
+
+        <i class="fa-solid fa-infinity"></i>
+       <h6>Learn at your own pace, with lifetime access on mobile and desktop</h6></div>
+      </div>
+    </section>
+    <!-- section 5 -->
+    <section class="section__5">
+        <h5>Students are viewing</h5>
+        <div class="carousel">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item-active">
+                <div class="carousel__block">
+                  <img src="./assets/1565838_e54e_16.jpg" class="d-block w-15" alt="..." />
+                  <h6>
+                    The Complete 2023 Web Development Bootcamp
+                  </h6>
+                  <p>Dr. Angela Yu</p>
+                  <p class="price">
+                    4.7 <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-regular fa-star-half-stroke"></i>(240,031)
+                  </p>
+                  <h6><i class="fa-solid fa-naira-sign"></i>3,900 <del><i class="fa-solid fa-naira-sign"></i>34,900</del></h6>
+                  <button class="bestseller">Bestseller</button>
+                </div>
+                <div class="carousel__block">
+                  <img src="./assets/2776760_f176_10.jpg" class="d-block w-15" alt="..." />
+                  <h6>
+                    100 Days of Code: The Complete Python Pro...
+                  </h6>
+                  <p>Dr. Angela Yu</p>
+                  <p class="price">
+                    4.7 <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-regular fa-star-half-stroke"></i>(155,103)
+                  </p>
+                  <h6><i class="fa-solid fa-naira-sign"></i>3,500 <del><i class="fa-solid fa-naira-sign"></i>29,900</del></h6>
+                  <button class="bestseller">Bestseller</button>
+                </div>
+                <div class="carousel__block">
+                  <img src="./assets/851712_fc61_6.jpg" class="d-block w-15" alt="..." />
+                  <h6>
+                    The Complete JavaScript Course 2023: From Zero to...
+                  </h6>
+                  <p>Jonas Schmedtmann</p>
+                  <p class="price">
+                    4.7 <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-regular fa-star-half-stroke"></i>(158,306)
+                  </p>
+                  <h6><i class="fa-solid fa-naira-sign"></i>4,500 <del><i class="fa-solid fa-naira-sign"></i>34,900</del></h6>
+                  <button class="bestseller">Bestseller</button>
+                </div>
+                <div  class="carousel__block">
+                  <img src="./assets/1362070_b9a1_2.jpg" class="d-block w-15" alt="..." />
+                  <h6>
+                    React - The Complete Guide (incl Hooks, React Router,...
+                  </h6>
+                  <p>Academind by Maximilian Schwarzmuller...</p>
+                  <p class="price">
+                    4.6 <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-regular fa-star-half-stroke"></i>(168,263)
+                  </p>
+                  <h6><i class="fa-solid fa-naira-sign"></i>3,500 <del><i class="fa-solid fa-naira-sign"></i>29,900</del></h6>
+                  <button class="bestseller">Bestseller</button>
+                </div>
+                <div class="carousel__block">
+                  <img src="./assets/2196488_8fc7_10.jpg" class="d-block w-15" alt="..." />
+                  <h6>
+                    Ultimate AWS Certified Solutions Architect Associat...
+                  </h6>
+                  <p>Stephane Maarek | AWS Certified Cloud...</p>
+                  <p class="price">
+                    4.7 <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-regular fa-star-half-stroke"></i>(155,812)
+                  </p>
+                  <h6><i class="fa-solid fa-naira-sign"></i>3,200 <del><i class="fa-solid fa-naira-sign"></i>24,900</del></h6>
+                  <button class="bestseller">Bestseller</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 6 -->
+    <section class="section__6">
+      <h5 class="section__6-title">Featured topics by category</h5>
+      <div class="container">
+      <div>
+        <h6>Development</h6>
+        <a href="#">Python</a>
+        <p>36,354,994 students</p>
+        <a href="#">Web Development</a>
+        <p>11,415,615 students</p>
+        <a href="#">Machine Learning</a>
+        <p>7,070,015 students</p>
+      </div>
+      <div>
+        <h6>Business</h6>
+        <a href="#">Financial Analysis</a>
+        <p>1,195,282 students</p>
+        <a href="#">SQL</a>
+        <p>5,977,561 students</p>
+        <a href="#">PMP</a>
+        <p>1,733,398 students</p>
+      </div>
+      <div>
+        <h6>IT and Software</h6>
+        <a href="#">AWS Certification</a>
+        <p>6,078,244 students</p>
+        <a href="#">Ethical Hacking</a>
+        <p>10,931,066 students</p>
+        <a href="#">Cyber Security</a>
+        <p>3,998,037 students</p>
+      </div>
+      <div>
+        <h6>Design</h6>
+        <a href="#">Photoshop</a>
+        <p>10,909,736 students</p>
+        <a href="#">Graphic Design</a>
+        <p>3,381,052 students</p>
+        <a href="#">Drawing</a>
+        <p>2,410,849 students</p>
+      </div>
+    </div>
+    <button class="explore__button">Explore more topics</button>
+    </section>
+    <!-- section 7 -->
+    <section class="section__7">
+      <div class="leading__company">
+        <h5>Trust by over 13,400 great teams</h5>
+        <p>Leading companies use the same courses to help employees keep their skills fresh.</p>
+      </div>
+      <div class="section__7__img">
+        <img src="./assets/nasdaq-dark.svg" alt="nasdaq" class="nasdaq">
+        <img src="./assets/volkswagen-dark.svg" alt="volkswagen" class="volkswagen">
+        <img src="./assets/box-dark.svg" alt="box" class="box">
+        <img src="./assets/netapp-dark.svg" alt="netapp" class="netapp">
+        <img src="./assets/eventbrite-dark.svg" alt="eventbrite" class="eventbrite">
+        <img src="./assets/tcs-dark.svg" alt="tcs" class="tcs">
+      </div>
+      <div class="udemy__business">
+        <div class="">
+          <img src="./assets/logo-ub.svg" alt="logo-ub" class="logo-ub">
+          <h3>Upskill your team with Udemy Business</h3>
+          <ul>
+            <li>Unlimited access to 19,000+ top Udemy courses, anytime, anywhere</li>
+            <li>International course collection in 14 languages</li>
+            <li>Top certifications in tech and business</li>
+          </ul>
+          <div class="section__7__button">
+            <button class="get__udemy">Get Udemy Business</button>
+            <button class="learn__more">Learn more</button>
+          </div>
+        </div>
+        <div class="udemy__img">
+          <img src="./assets/UB_Promo_1200x1200.jpg" alt="UB image" class="image">
+       </div>
+      </div>
+      
+    </section>
+  </body>
+</html>
