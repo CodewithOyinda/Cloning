@@ -3,9 +3,48 @@
     padding: 0;
     box-sizing:border-box;
 }
+nav {
+    background-color: white;
+} 
 .udemy__logo {
    width: 91px; 
    height: 34px;
+}
+.d-flex {
+    width: 450px;
+    height: 50px;
+}
+.navbar {
+    background-color: white;
+}
+.nav-link a:hover {
+    color: #5624d0;;
+}
+.nav-link {
+    gap: 2rem;
+}
+.login__button {
+    width: 80px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: white;
+    font-weight: bolder;
+}
+.signup__button {
+    width:80px;
+    height:40px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+.icon__button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: white;
+}
+.nav__end {
+    gap: 2rem;
 }
 /* section 2 */
 .section__2 {
@@ -89,11 +128,25 @@
     background-color: #f7f9fa;
     margin: 0px auto;
 }
+.section__6-title {
+    font-weight: bolder;
+}
 .container {
     display: flex;
     justify-content: space-between;
     gap: 2.5rem;
-    margin: 0px auto;
+}
+.container a {
+    font-weight: bolder;
+    color: #5624d0;;
+}
+.container p {
+    color: #6a6f73;
+    font-size: 0.85rem;
+    font-weight:600;
+}
+.container h6 {
+    font-weight: bolder;
 }
 .section__6-title, .container, .explore__button {
     margin: 20px 20px;
@@ -101,15 +154,41 @@
 /* section 7 */
 .leading__company {
     text-align: center;
+    padding-top:70px ;
+}
+.leading__company h4 {
+    font-weight: bolder;
 }
 .section__7__img {
     display: flex;
     align-items: center;
     gap: 8rem;
+    padding-bottom: 50px;
 }
  .logo-ub {
     width: 200px; 
    height: 100px;
+}
+.udemy__content {
+    line-height: 2.5;
+}
+.udemy__content h3 {
+    font-weight: bolder;
+}
+.get__udemy {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    width: 190px;
+    height: 50px;
+}
+.learn__more {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
 }
 .image {
     width: 400px;
@@ -118,6 +197,65 @@
 .udemy__business {
     display: flex;
     justify-content: space-between;
-    gap:2rem;
+    gap:2.5rem;
+    padding: 40px 70px;
+}
+.instructor {
+    width: 400px;
+    height: 400px;  
+}
+.udemy__instructor {
+    /* width:335px; */
+    height: 200px;
+    font-weight: 400px;
+    padding: 100px;
+}
+.udemy__instructor h3 {
+    font-weight: bolder;
+}
+.teaching__button {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    width: 190px;
+    height: 50px;
+}
+/* section 8 */
+.footer {
+    background-color: black;
+    color: white;
+    line-height: 1.4rem;
+    font-size: 0.9rem;
+}
+footer a:link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.footer__column {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.english {
+    background-color: black;
+    color: white;
+    border: 1px solid wheat;
+    width: 140px;
+    height: 40px;
+}
+
+.footer__logo {
+   width: 91px;
+   height: 34px; 
+}
+.bottom {
+    display: flex;
+    justify-content:space-between;
+    padding: 30px;
+    padding: 50px;
 }
 
